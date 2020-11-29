@@ -1034,6 +1034,9 @@ BUTTON
   .bg-image {
     background-attachment: scroll;
   }
+  .work-title {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
