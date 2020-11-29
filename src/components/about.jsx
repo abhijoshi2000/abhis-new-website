@@ -79,10 +79,11 @@ class About extends React.Component {
                         </div>
                       </div>
                     </div>
-                    < img src={prof}
-                          className="prof-pic"
-                          alt=""
-                      /> 
+                    <div className="prof-pic-div">
+                      <img src={prof}
+                           className="prof-pic"
+                           alt=""/> 
+                    </div>
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">

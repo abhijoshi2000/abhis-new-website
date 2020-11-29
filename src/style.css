@@ -686,7 +686,11 @@ ABOUT
 }
 
 .prof-pic {
-  width: 450px;
+  width: 380px;
+}
+
+.prof-pic-div {
+  text-align: center;
 }
 
 .skill-mf span {
