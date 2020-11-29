@@ -1,11 +1,4 @@
 import React from "react";
-
-//import stock
-import facebook from "../img/facebook.png";
-import amazon from "../img/amazon.png"
-import exyn from "../img/exyn.png"
-import broadridge from "../img/broadridge.png"
-
 class Work extends React.Component {
   render() {
     return (

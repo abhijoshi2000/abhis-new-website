@@ -88,7 +88,7 @@ class About extends React.Component {
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                     <div className="title-box-2">
-                        <h5 className=""></h5>
+                        <h5> </h5>
                       </div>
                       <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}

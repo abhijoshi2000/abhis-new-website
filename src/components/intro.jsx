@@ -32,7 +32,7 @@ class Intro extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="!#"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
