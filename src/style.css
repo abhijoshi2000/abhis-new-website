@@ -83,7 +83,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: darkgray;
+  background-color: black;
 }
 
 .overlay-mf {
@@ -161,6 +161,11 @@ a:hover {
 
 .title-box-2 {
   margin-left: 30rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title-box-3 {
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -698,7 +703,7 @@ ABOUT
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: white;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -714,10 +719,12 @@ PORTFOLIO
 */
 
 .work-box {
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  width: 100%;
+  height: 400px;
 }
 
 .work-box:hover img {
@@ -728,6 +735,8 @@ PORTFOLIO
 .work-img {
   display: block;
   overflow: hidden;
+  width: 100%;
+  height: 300px;
 }
 
 .work-img img {
@@ -735,7 +744,7 @@ PORTFOLIO
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 3% 1rem 4%;
 }
 
 .work-content .w-more {
@@ -765,6 +774,23 @@ PORTFOLIO
   font-size: 1.2rem;
 }
 
+.yui-gf .yui-u {
+  width: 80.2%;
+}
+.job {
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+.job h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0;
+}
+.job p {
+  margin: 0.75em 0 3em 0;
+}
 /*
 TESTIMONIALS
 */
@@ -816,8 +842,8 @@ CONTACT
 }
 
 .contact-mf {
-  text-align: center;
   margin-top: 4rem;
+  text-align: center;
 }
 
 /*
@@ -842,7 +868,6 @@ CONTACT
   color: #0078ff;
   border: 1px solid #0078ff;
   display: none;
-  text-align: center;
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
