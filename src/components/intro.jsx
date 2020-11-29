@@ -24,13 +24,50 @@ class Intro extends React.Component {
                       "Innovator",
                       "Full Stack Developer"
                     ]}
-                    typeSpeed={70}
+                    typeSpeed={80}
                     backDelay={1100}
                     backSpeed={30}
                     loop
                   />
                 </strong>
               </p>
+              <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-codepen"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/abhijoshi2000"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
             </div>
           </div>
         </div>
