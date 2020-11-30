@@ -23,14 +23,14 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://github.com/abhijoshi2000/financial-knowledge-graph">
+                <a href="https://github.com/abhijoshi2000/fin-kg">
                   <div className="work-img">
                     <img src={finKG} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">finKG</h2>
+                        <h2 className="w-title">fin-kg</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Python SpaCy ML
