@@ -1,7 +1,6 @@
 import React from "react";
 
 //import stock
-import finKG from "../img/finKG.png";
 import flexify from "../img/flexify.png"
 import lebron from "../img/lebron.png"
 class Portfolio extends React.Component {
@@ -21,28 +20,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="https://github.com/abhijoshi2000/fin-kg">
-                  <div className="work-img">
-                    <img src={finKG} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">fin-kg</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Python SpaCy ML
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/flexify">
                   <div className="work-img">
@@ -63,7 +41,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/nba-analytics">
                   <div className="work-img">
