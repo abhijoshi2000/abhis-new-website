@@ -50,7 +50,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">nba-analytics</h2>
+                        <h2 className="w-title">nba-all-stars</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Python ML
