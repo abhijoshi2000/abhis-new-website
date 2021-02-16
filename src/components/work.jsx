@@ -26,6 +26,13 @@ class Work extends React.Component {
                         <p></p>
                     </div>
                     <div class="job">
+                        <h3>TalkMeUp</h3>
+                        <h4 className="work-title">Product Management Intern</h4>
+                        <h5>January 2021 - Present</h5>
+                        <p> • Conducted full-scale product lifecycle management across 6 stages, spearheading the formation of new features by leveraging in-depth customer requirements
+                            <br/>• Collaborated closely with the development and design teams to plan and strategize focused sprints through an Agile-based methodology</p>
+                    </div>
+                    <div class="job">
                         <h3>Exyn Technologies</h3>
                         <h4 className="work-title">Software Engineering Intern</h4>
                         <h5>May 2020 - July 2020</h5>

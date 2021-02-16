@@ -3,6 +3,7 @@ import React from "react";
 //import stock
 import flexify from "../img/flexify.png"
 import lebron from "../img/lebron.png"
+import pharma from "../img/pharma.jpg"
 class Portfolio extends React.Component {
   render() {
     return (
@@ -20,7 +21,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/flexify">
                   <div className="work-img">
@@ -41,7 +42,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/nba-money-line">
                   <div className="work-img">
@@ -54,6 +55,27 @@ class Portfolio extends React.Component {
                         <div className="w-more">
                           <span className="w-ctegory">
                             Python ML
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-5">
+              <div className="work-box">
+                <a href="https://github.com/abhijoshi2000/pharma-news-scraper">
+                  <div className="work-img">
+                    <img src={pharma} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">pharma-latest</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Python Web Scraping
                           </span>
                         </div>
                       </div>
