@@ -1,9 +1,9 @@
 import React from "react";
 
 //import stock
-import flexify from "../img/flexify.png"
-import lebron from "../img/lebron.png"
-import pharma from "../img/pharma.jpg"
+import flexify from "../img/flexify.png";
+import lebron from "../img/lebron.png";
+import pharma from "../img/pharma.jpg";
 class Portfolio extends React.Component {
   render() {
     return (
@@ -13,15 +13,16 @@ class Portfolio extends React.Component {
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-left">Portfolio</h3>
-                <br/>
+                <br />
                 <p className="subtitle-a">
-                  Take a look at some of my personal projects, ranging in scope and interests.
+                  Take a look at some of my personal projects, ranging in scope
+                  and interests.
                 </p>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/flexify">
                   <div className="work-img">
@@ -42,7 +43,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/nba-money-line">
                   <div className="work-img">
@@ -53,9 +54,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">nba-money-line</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">
-                            Python ML
-                          </span>
+                          <span className="w-ctegory">Python ML</span>
                         </div>
                       </div>
                     </div>
@@ -63,7 +62,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/pharma-news-scraper">
                   <div className="work-img">
@@ -74,9 +73,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">pharma-latest</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">
-                            Python Web Scraping
-                          </span>
+                          <span className="w-ctegory">Python Web Scraping</span>
                         </div>
                       </div>
                     </div>
