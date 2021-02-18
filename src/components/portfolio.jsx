@@ -45,14 +45,14 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-6">
               <div className="work-box">
-                <a href="https://github.com/abhijoshi2000/nba-money-line">
+                <a href="https://github.com/abhijoshi2000/nba-all-stars">
                   <div className="work-img">
                     <img src={lebron} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">nba-money-line</h2>
+                        <h2 className="w-title">nba-all-stars</h2>
                         <div className="w-more">
                           <span className="w-ctegory">Python ML</span>
                         </div>
