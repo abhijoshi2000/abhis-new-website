@@ -44,7 +44,7 @@ class Work extends React.Component {
                         <h4 className="work-title">Software Development Intern</h4>
                         <h5>June 2019 - August 2019</h5>
                         <p>• Implemented a full-stack bulk messaging service with Angular and Java to publish onto Active and IBM MQ, achieving a 5x reduction in publishing time
-                        <br/>• Constructed a message search functionality with Java, using Splunk’s REST API and AES decryption to validate the status over 100 client message types on logs         </p>
+                        <br/>• Constructed a message search functionality with Java, using Splunk’s REST API and AES decryption to validate the status of over 100 client message types on logs</p>
                     </div>
                 </div>
             </div>
