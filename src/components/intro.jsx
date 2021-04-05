@@ -19,7 +19,8 @@ class Intro extends React.Component {
                     strings={[
                       "Student",
                       "Innovator",
-                      "Full Stack Developer"
+                      "Full Stack Developer",
+                      "Machine Learning Enthusiast"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
