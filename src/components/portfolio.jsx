@@ -3,6 +3,7 @@ import React from "react";
 import flexify2 from "../img/flexify2.png";
 import allstars from "../img/allstars.jpeg";
 import pharma from "../img/pharma.jpg";
+import tiktok from "../img/tiktok.jpg";
 import rwsbets from "../img/rwsbets.jpg";
 class Portfolio extends React.Component {
   render() {
@@ -54,7 +55,9 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">nba-all-stars</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">Python | Scikit-Learn</span>
+                          <span className="w-ctegory">
+                            Python | Scikit-Learn
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -73,7 +76,9 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">pharma-latest</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">Python | BeautifulSoup</span>
+                          <span className="w-ctegory">
+                            Python | BeautifulSoup
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -83,18 +88,37 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-6">
               <div className="work-box">
-                <a href="https://github.com/abhijoshi2000/r-wallstreebets-sentiment-analysis">
+                <a href="https://github.com/abhijoshi2000/tiktok-trends">
+                  <div className="work-img">
+                    <img src={tiktok} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">tiktok-trends</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Python | scikit-learn
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="work-box">
+                <a href="https://github.com/abhijoshi2000/r-wsbets">
                   <div className="work-img">
                     <img src={rwsbets} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">r-wallstreebets-sentiment-analysis</h2>
+                        <h2 className="w-title">r-wsbets</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">
-                            Python | NLTK
-                          </span>
+                          <span className="w-ctegory">Python | NTLK</span>
                         </div>
                       </div>
                     </div>
