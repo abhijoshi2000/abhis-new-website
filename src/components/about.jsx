@@ -1,5 +1,5 @@
 import React from "react";
-import profPic from "../img/ProfPic.jpg";
+import profPicV2 from "../img/profPicV2.jpg";
 
 class About extends React.Component {
   constructor() {
@@ -80,7 +80,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="prof-pic-div">
-                      <img src={profPic} className="prof-pic" alt="" />
+                      <img src={profPicV2} className="prof-pic" alt="" />
                     </div>
                   </div>
                   <div className="col-md-6">
