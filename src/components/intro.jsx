@@ -7,7 +7,6 @@ class Intro extends React.Component {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
@@ -17,10 +16,9 @@ class Intro extends React.Component {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Student",
                       "Innovator",
-                      "Full Stack Developer",
-                      "Machine Learning Enthusiast"
+                      "Software Developer",
+                      "Content Creator",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -30,42 +28,49 @@ class Intro extends React.Component {
                 </strong>
               </p>
               <div className="socials">
-                        <ul>
-                          <li>
-                            <a
-                              href="!#"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://github.com/abhijoshi2000"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                <ul>
+                  <li>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">
+                      <span className="ico-circle">
+                        <i className="ion-social-codepen"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/abhijoshi2000"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="ico-circle">
+                        <i className="ion-social-github"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="ico-circle">
+                        <i className="ion-social-linkedin"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UC5RxBhDt1nr7OQHw_H_G_fg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="ico-circle">
+                        <i className="ion-social-youtube"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

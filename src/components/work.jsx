@@ -12,20 +12,39 @@ class Work extends React.Component {
             </div>
             <div class="yui-u">
               <div class="job">
-                <h3>Facebook</h3>
-                <h4 className="work-title">
-                  Incoming Software Engineering Intern
-                </h4>
-                <h5>September 2021 - December 2021</h5>
+                <h3>Meta</h3>
+                <h4 className="work-title">Software Engineer</h4>
+                <h5>July 2022 - Present</h5>
                 <p></p>
               </div>
               <div class="job">
+                <h3>Facebook</h3>
+                <h4 className="work-title">Software Engineering Intern</h4>
+                <h5>September 2021 - December 2021</h5>
+                <p>
+                  • Developed a novel feature store workflow to decouple feature
+                  engineering from model development for 8+ production ML models
+                  <br />• Extended the functionality of an asset-deduping model
+                  to an unmanaged asset population, increasing the scope from
+                  30k business managers to over 200k entities
+                </p>
+              </div>
+              <div class="job">
                 <h3>Amazon</h3>
-                <h4 className="work-title">
-                  Incoming Software Engineering Intern
-                </h4>
+                <h4 className="work-title">Software Development Intern</h4>
                 <h5>June 2021 - August 2021</h5>
-                <p></p>
+                <p>
+                  • Constructed a native AWS service to gather and monitor
+                  performance data from IAM MariaDB hosts and identify slow
+                  queries in less than 1 minute
+                  <br />
+                  • Leveraged Kinesis and Apache Flink to ingest stateful
+                  real-time data, perform ETL and efficiently flush over 90 tps
+                  into ElasticSearch
+                  <br />• Deployed a Lambda function to analyze ES clusters and
+                  trigger CW alarms, notifying 15+ members in response to
+                  critical DB host issues
+                </p>
               </div>
               <div class="job">
                 <h3>TalkMeUp</h3>
