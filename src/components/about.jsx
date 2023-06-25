@@ -9,7 +9,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I am a current software engineer at Meta, working within Instagram. Outside of work, I love to stay active through exercise, am an avid reader, and love to explore travel and epxlore new areas!",
+            "I am a current software engineer at Meta, working within Instagram. Outside of work, I love to stay active through exercise, am an avid reader, and love to travel and explore new areas!",
         },
       ],
     };
