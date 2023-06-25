@@ -18,7 +18,8 @@ class Intro extends React.Component {
                     strings={[
                       "Innovator",
                       "Software Developer",
-                      "Content Creator",
+                      "Gym Rat",
+                      "Traveler"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -55,17 +56,6 @@ class Intro extends React.Component {
                     >
                       <span className="ico-circle">
                         <i className="ion-social-linkedin"></i>
-                      </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/channel/UC5RxBhDt1nr7OQHw_H_G_fg"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="ico-circle">
-                        <i className="ion-social-youtube"></i>
                       </span>
                     </a>
                   </li>

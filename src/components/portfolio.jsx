@@ -67,27 +67,6 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-6">
               <div className="work-box">
-                <a href="https://github.com/abhijoshi2000/pharma-news-scraper">
-                  <div className="work-img">
-                    <img src={pharma} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">pharma-latest</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Python | BeautifulSoup
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="work-box">
                 <a href="https://github.com/abhijoshi2000/tiktok-trends">
                   <div className="work-img">
                     <img src={tiktok} alt="" className="img-fluid" />
