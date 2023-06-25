@@ -2,7 +2,6 @@ import React from "react";
 
 import flexify2 from "../img/flexify2.png";
 import allstars from "../img/allstars.jpeg";
-import pharma from "../img/pharma.jpg";
 import tiktok from "../img/tiktok.jpg";
 import rwsbets from "../img/rwsbets.jpg";
 class Portfolio extends React.Component {

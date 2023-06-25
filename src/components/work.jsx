@@ -15,7 +15,9 @@ class Work extends React.Component {
                 <h3>Meta</h3>
                 <h4 className="work-title">Software Engineer</h4>
                 <h5>July 2022 - Present</h5>
-                <p></p>
+                <p>
+                  • Supporting Instagram Boost Platform
+                </p>
               </div>
               <div class="job">
                 <h3>Facebook</h3>

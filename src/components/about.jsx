@@ -1,5 +1,5 @@
 import React from "react";
-import profPicV2 from "../img/profPicV2.jpg";
+import profile from "../img/profile.png";
 
 class About extends React.Component {
   constructor() {
@@ -33,32 +33,23 @@ class About extends React.Component {
                       </p>
                     );
                   })}
-                  <div className="col-md-6">
-                    <div className="row">
+                  <div className="row">
+                    <div
+                      className="col-sm-12 col-md-5"
+                      style={{ margin: "0 auto" }}
+                    >
                       <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
+                        className="about-img"
+                        style={{ textAlign: "center" }}
                       >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
-                        </div>
+                        <img
+                          className="img-fluid rounded b-shadow-a"
+                          alt=""
+                        />
                       </div>
                     </div>
                     <div className="prof-pic-div">
-                      <img src={profPicV2} className="prof-pic" alt="" />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5> </h5>
-                      </div>
+                      <img src={profile} className="prof-pic" alt="" />
                     </div>
                   </div>
                 </div>
