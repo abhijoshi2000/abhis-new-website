@@ -36,7 +36,7 @@ class About extends React.Component {
                   <div className="row">
                     <div
                       className="col-sm-12 col-md-5"
-                      style={{ margin: "0 auto" }}
+                      style={{ margin: "10 auto" }}
                     >
                       <div
                         className="about-img"
